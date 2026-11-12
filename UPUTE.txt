@@ -1,0 +1,46 @@
+LUCIJA TOMEK — NOVI PORTFOLIO
+
+SADRŽAJ:
+- portfolio.html
+- style.css
+- mapa slike/ (ovdje stavi svoje fotografije)
+
+KAKO POKRENUTI:
+1. Raspakiraj ZIP.
+2. U mapu "slike" kopiraj svoje fotografije i preimenuj ih prema popisu ispod.
+3. Otvori portfolio.html u pregledniku.
+
+POTREBNE SLIKE U MAPI slike/:
+Uvod:
+- uvodna.jpg (nije obavezna; kolaž ili jedna reprezentativna fotografija)
+
+Završni rad:
+- zavrsni-rad-1.jpg
+- zavrsni-rad-2.jpg
+- zavrsni-rad-3.jpg
+
+Grafički dizajn:
+- logo-1.jpg
+- logo-2.jpg
+- logo-3.jpg
+- vizualne-komunikacije-1.jpg
+- vizualne-komunikacije-2.jpg
+- priprema-za-tisak.jpg
+
+Fotografija:
+- fotografija1.jpg
+- fotografija2.jpg
+- fotografija3.jpg
+- fotografija4.jpg
+- fotografija5.jpg
+- fotografija6.jpg
+- fotografija7.jpg
+- fotografija8.jpg
+- fotografija9.jpg
+
+VAŽNO:
+- U HTML-u su pripremljena točno 3 prikaza završnog rada, 3 logotipa, 2 rada vizualnih komunikacija, 1 rad pripreme za tisak i 9 fotografija.
+- Ako su tvoje fotografije PNG, promijeni nastavak .jpg u HTML-u u .png ili ih spremi kao JPG.
+- Fotografije nisu uključene u ZIP jer nisu bile priložene. Potrebno je zamijeniti navedene datoteke svojim stvarnim radovima.
+- Uvodna fotografija je opcionalna; ako je nema, ostat će neutralno polje s uputom.
+- E-mail je postavljen na tomeklucija@gmail.com.

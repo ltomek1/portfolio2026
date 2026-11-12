@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Lucije Tomek – grafički dizajn, vizualne komunikacije i fotografija.">
+  <title>Lucija Tomek — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#pocetak">Lucija Tomek<span>.</span></a>
+    <nav aria-label="Glavna navigacija">
+      <a href="#o-meni">O meni</a>
+      <a href="#radovi">Radovi</a>
+      <a href="#fotografija">Fotografija</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="pocetak">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO · 2026</p>
+        <h1>Bok, ja sam<br><em>Lucija.</em></h1>
+        <p class="hero-lead">Grafički dizajn, vizualne komunikacije i fotografija.</p>
+        <p class="hero-description">Studentica sam Grafičkog fakulteta u Zagrebu. Volim istraživati vizualne ideje, oblikovati jasne poruke i pretvarati koncepte u vizualna rješenja.</p>
+        <a class="text-link" href="#radovi">Pogledaj odabrane radove <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Kolaž odabranih radova">
+        <img src="uvodna.jpg" alt="Kolaž odabranih dizajnerskih radova" onerror="this.parentElement.classList.add('image-missing'); this.remove();">
+        <div class="hero-art-note">OD IDEJE<br>DO VIZUALA</div>
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+      </div>
+      <div class="hero-index"><span>01</span><span>GRAFičKI DIZAJN · VIZUALNE IDEJE</span></div>
+    </section>
+
+    <section class="about section-wrap" id="o-meni">
+      <p class="eyebrow">UKRATKO O MENI</p>
+      <div class="about-content">
+        <h2>Znatiželja,<br><em>ideje i dizajn.</em></h2>
+        <div>
+          <p>Moje ime je Lucija Tomek i studentica sam diplomskog studija Dizajna grafičkih proizvoda na Grafičkom fakultetu Sveučilišta u Zagrebu. Prethodno sam završila prijediplomski studij istog smjera.</p>
+          <p>Aktivna sam članica udruge Ekonomska klinika, gdje djelujem u timu Marketing & PR, u podtimovima za dizajn, odnose s javnošću te fotografiju i montažu.</p>
+		  <p>Kroz studij i rad u udruzi razvijam interese za grafički dizajn, vizualne komunikacije, fotografiju i stvaranje vizualnog sadržaja.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section section-wrap" id="radovi">
+      <div class="section-heading">
+        <div><p class="eyebrow">ODABRANI PROJEKTI</p><h2>Radovi<span>.</span></h2></div>
+      </div>
+
+      <article class="featured-project">
+        <div class="project-heading">
+          <span class="project-number">01 / ZAVRŠNI RAD</span>
+          <span class="project-count">3 prikaza</span>
+        </div>
+        <h3>Završni rad</h3>
+		<div>
+          <p>U završnom radu razvila sam dizajn drvene slagalice i pripadajuće ambalaže inspirirane vizualnim identitetom grada Šibenika. Projekt obuhvaća autorsku ilustraciju prepoznatljivih gradskih motiva, 
+		  konstrukcijsko oblikovanje slagalice i ambalaže od brezove šperploče te njihovu izradu primjenom tehnologije laserskog rezanja i graviranja. Cilj projekta bio je povezati vizualni identitet grada, 
+		  funkcionalnost i dizajn u jedinstven suvenir.</p>
+        </div>
+        <p class="project-intro">Odabrani prikazi završnog projekta.</p>
+		
+        <div class="image-grid thesis-grid">
+          <button class="image-button" data-full="zavrsni/zavrsni1.jpg" aria-label="Povećaj fotografiju završnog rada 1"><img src="zavrsni/zavrsni1.jpg" alt="Završni rad – prikaz 1"></button>
+          <button class="image-button" data-full="zavrsni/zavrsni2.jpg" aria-label="Povećaj fotografiju završnog rada 2"><img src="zavrsni/zavrsni2.jpg" alt="Završni rad – prikaz 2"></button>
+          <button class="image-button" data-full="zavrsni/zavrsni3.jpg" aria-label="Povećaj fotografiju završnog rada 3"><img src="zavrsni/zavrsni3.jpg" alt="Završni rad – prikaz 3"></button>
+        </div>
+      </article>
+
+      <article class="graphic-project">
+        <div class="project-heading">
+          <span class="project-number">02 / GRAFIČKI DIZAJN</span>
+          <span class="project-count">6 radova</span>
+        </div>
+        <div class="graphic-intro">
+          <h3>Oblikovanje<br><em>vizualnih ideja.</em></h3>
+        </div>
+		<div class="pdf-gallery">
+           <div class="pdf-card"><iframe src="radovi/logo1.pdf"></iframe></div>
+           <div class="pdf-card"><iframe src="radovi/logo2.pdf"></iframe></div>
+           <div class="pdf-card"><iframe src="radovi/logo3.pdf"></iframe></div>
+           <div class="pdf-card"><iframe src="radovi/vizualne2.pdf"></iframe></div>
+           <div class="pdf-card"><iframe src="radovi/vizualne.pdf"></iframe></div>
+         <div class="pdf-card"><iframe src="radovi/priprema.pdf"></iframe></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="photo-section section-wrap" id="fotografija">
+      <div class="section-heading">
+        <div><p class="eyebrow">IZVAN DIZAJNA</p><h2>Fotografija<span>.</span></h2></div>
+      </div>
+      <div class="photo-grid">
+        <button class="image-button photo-tall" data-full="slike/fotografija1.jpg" aria-label="Povećaj fotografiju 1"><img src="slike/fotografija1.jpg" alt="Fotografija 1"></button>
+        <button class="image-button" data-full="slike/fotografija2.jpg" aria-label="Povećaj fotografiju 2"><img src="slike/fotografija2.jpg" alt="Fotografija 2"></button>
+        <button class="image-button" data-full="slike/fotografija3.jpg" aria-label="Povećaj fotografiju 3"><img src="slike/fotografija3.jpg" alt="Fotografija 3"></button>
+        <button class="image-button" data-full="slike/fotografija4.jpg" aria-label="Povećaj fotografiju 4"><img src="slike/fotografija4.jpg" alt="Fotografija 4"></button>
+        <button class="image-button photo-tall" data-full="slike/fotografija5.jpg" aria-label="Povećaj fotografiju 5"><img src="slike/fotografija5.jpg" alt="Fotografija 5"></button>
+        <button class="image-button" data-full="slike/fotografija6.jpg" aria-label="Povećaj fotografiju 6"><img src="slike/fotografija6.jpg" alt="Fotografija 6"></button>
+        <button class="image-button" data-full="slike/fotografija7.jpg" aria-label="Povećaj fotografiju 7"><img src="slike/fotografija7.jpg" alt="Fotografija 7"></button>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="kontakt">
+      <p class="eyebrow">KONTAKT</p>
+      <a class="contact-email" href="mailto:tomeklucija@gmail.com">tomeklucija@gmail.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="wordmark" href="#pocetak">Lucija Tomek<span>.</span></a><p>© 2026 Lucija Tomek · Portfolio</p><a href="#pocetak">Povratak na vrh ↑</a></footer>
+
+  <dialog class="lightbox" aria-label="Uvećani prikaz fotografije">
+    <button class="lightbox-close" aria-label="Zatvori">×</button>
+    <img src="" alt="Uvećani prikaz rada">
+  </dialog>
+  <script>
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImage = lightbox.querySelector('img');
+    document.querySelectorAll('.image-button').forEach(button => {
+      button.addEventListener('click', () => {
+        lightboxImage.src = button.dataset.full;
+        lightboxImage.alt = button.querySelector('img').alt;
+        lightbox.showModal();
+      });
+    });
+    lightbox.addEventListener('click', event => {
+      if (event.target === lightbox || event.target.classList.contains('lightbox-close')) lightbox.close();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && lightbox.open) lightbox.close();
+    });
+  </script>
+</body>
+</html>
